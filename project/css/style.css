@@ -1,0 +1,372 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+}
+span{
+    font-weight: 100;
+    padding: 5px;
+    font-size: 13px;
+}
+span a {
+    font-weight: 100;
+    padding: 5px;
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+}
+span a:hover{
+    cursor: pointer;
+    transition:.6s ease all;
+    transform: scale(.9) rotate(-5deg);
+    text-decoration: none;
+    color: darkgrey;
+
+}
+
+i{
+    padding: 4px;
+    font-size: 17px;
+    color: darkgrey;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+.icon-1{
+    border-bottom: 1px solid darkgrey;
+}
+.icon-1 i:hover{
+color:  rgb(242, 242, 8);
+}
+.item-1 i {
+    font-size: 25px;
+    color: rgb(210, 209, 209);
+    /* background-color: white; */
+}
+.item-1 ul a{
+    text-decoration: none;
+    font-weight: 200;
+    color: black;
+    font-size:large;
+}
+.btn-item{
+    border-radius: 30px;
+    border: none;
+    width: 152px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 80px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.item-1 button:hover{
+    border: 1px solid #fcdb5a;
+    box-shadow: inset -6px 6px rgba(242, 2);
+    background-color: white;
+    transition:.5s ease all ;
+
+}
+.img-wrwp{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    text-transform: none;
+    letter-spacing: -.04em;
+}
+.img-wrwp span {
+    font-size: 65px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+
+}
+.img-wrwp h2{
+    font-style: bolder;
+    font-weight: 800;
+    font-size: 75px;
+}
+.img-wrwp button{
+    margin-left: 0px;
+    width: 200px;
+    height: 65px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #fcdb5a;
+}
+.img-wrwp button:hover{
+    color:  rgb(242, 242, 8);
+    }
+.img-wrwp-1{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    text-transform: none;
+    letter-spacing: -.04em;
+}
+.img-wrwp-1 span {
+    font-size: 65px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+.img-wrwp-1 h2{
+    font-style: bolder;
+    font-weight: 800;
+    font-size: 75px;
+}
+.img-wrwp-1 button{
+    margin-left: 0px;
+    width: 200px;
+    height: 65px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #fcdb5a;
+}
+.img-wrwp-2{
+    position: absolute;
+    top: 56px;
+    right: 335px;
+    text-transform: none;
+    letter-spacing: -.04em;
+}
+.img-wrwp-2 span {
+    font-size: 86px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    color: #fff!important;
+
+}
+.img-wrwp-2 h2{
+    font-style: bolder;
+    font-weight: 800;
+    font-size: 75px;
+    color: #fff!important;
+}
+.img-wrwp-2 button{
+    margin-left: 150px;
+    width: 200px;
+    height: 65px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #fcdb5a;
+    color: #fff!important;
+}
+.advantages i{
+    font-size: 60px;
+    margin-left: 50px;
+    color: rgb(251, 11, 11);
+}
+.advantages h6{
+    padding-top: -9%;
+
+}
+.advantages p{
+    line-height:.5;
+
+}
+.product{
+    width: 100%;
+    margin-top: 100px;
+}
+.juise-logo{
+    position: absolute;
+    left: 45%;
+    bottom: -1318px;
+    /* bottom: 20px; */
+    /* margin-bottom: 30px; */
+}
+.topp{
+    margin-top: 100px;
+}
+.product-col{
+    letter-spacing: 0.2rem;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif !important;
+}
+.btn-tr{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #fcdb5a;
+    /* font-weight: 100; */
+    font-size: 20px;
+
+}
+.btn-tr:hover{
+    cursor: pointer;
+    background-color: #fcdb5a;
+
+}
+.span-p{
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 26px;
+
+}
+.sp-text span {
+    font-size: 140px;
+    font-weight: 800;
+    /* font-style: italic; */
+    font-family: 'Satisfy', cursive !important;
+}
+.text-h{
+    font-size: 44px;
+    font-weight: bold;
+    font-weight: 900;
+    color: black;
+}
+.text-s{
+    color: gray;
+    font-size: 39px;
+    font-weight: 100
+  
+}
+.text-p{
+    padding: 7px 301px;
+    color: rgb(191, 190, 190);
+}
+.if{
+    font-size: 10px;
+}
+.if-1{
+    background-color: #fcdb5a;
+}
+.btn-tr-1{
+    padding: 10px 31px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #fcdb5a;
+    /* font-weight: 100; */
+    font-size: 13px;
+
+}
+.btn-tr-1:hover{
+    cursor: pointer;
+    background-color: #fcdb5a;
+
+}
+.brs{
+    border-radius: 20px;
+}
+.brs:hover{
+    width: 10000px;
+    height: 200px;
+}
+.text-ss{
+    color: gray;
+    font-size: 67px;
+    font-weight: 100
+  
+}
+.text-hh{
+    font-size: 55px;
+    font-weight: bold;
+    font-weight: 900;
+    color: black;
+    color: #c6c820;
+}
+.text-pp{
+    font-weight: 100;
+}
+
+
+.btn-tr-2 {
+    padding: 11px 51px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #fcdb5a;
+    /* font-weight: 100; */
+    font-size: 17px;
+}
+.btn-tr-2:hover{
+    cursor: pointer;
+    background-color: #fcdb5a;
+
+}
+.bg-1{
+    background-color:#F4ECF7;
+}
+.text-ppp{
+    padding: 7px 37px;
+    color: #656161;
+}
+.card-ab{
+    position: absolute;
+    top: -51px;
+    width: 100%;
+    background-color: white
+}
+.ab-1{
+    font-size: 13px;
+    color: #fcdb5a;
+    margin-left: 22px;
+}
+.card-abb{
+    position: relative;
+    top: -51px;
+    width: 100%;
+    background-color: white
+}
+.foot-2{
+    line-height: 1.5rem;
+}
+.foot-2 li{
+   text-decoration: none;
+   list-style-type: none;
+}
+.icon-2 i:hover{
+    color:  rgb(242, 242, 8);
+    }
+    .footer__item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 3px solid #2c03fc;
+        margin: 1em 0;
+        padding: 0;
+      }
+      .imp{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid ghostwhite;
+        /* text-align: center; */
+      }
+      .btn-tr-3 {
+        padding: 11px 104px;
+        border-radius: 30px;
+        background-color: transparent;
+        border: 2px solid #fcdb5a;
+        /* font-weight: 100; */
+        font-size: 17px;
+      }
+      .btn-tr-3:hover{
+        cursor: pointer;
+        background-color: #fcdb5a;
+    
+    }
+
+
+    /* 
+     <div class="card" style="width: 18rem;">
+          <img src="/img/fruit/1 (1).jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Orange</h5>
+            <p class="card-text">fruits</p>
+            <h4 class="card-title">3,80 $</h>
+
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+          </div>
+
+        </div> */
