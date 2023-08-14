@@ -1,0 +1,124 @@
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin: 0%;  
+    
+}
+h2{
+    display: block;
+    font-size: 66.6666;
+    font-weight: 100%;
+    margin: 5px;
+}
+.font-wrap{
+    display: contents;
+    padding: 0%;
+}
+.nav-main-content {
+    min-height: 38px;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+.container,.container{
+    margin: 2%;
+}
+.col-2,.img{
+    display: flex;
+}
+.badge{
+    margin: 4%;
+    margin-right: auto;
+}
+.body-div {
+    background-image: url("../IMG/./3.jpg");
+}
+h5{
+    font-weight: 100;
+}
+a{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: black;
+    }
+.contenier{
+    margin: 7%;
+    margin-left: 14%;
+    /* justify-content: space-between; */
+}
+/* .col-8{
+    margin-top: 20%;
+    margin-left: 14;
+}
+.conteainer{
+    display: grid;
+}
+.col-4{
+    float: right;
+} */
+.top-header span,a, i {
+    color: rgb(146, 142, 135) !important;
+    font-size: 12px;
+}
+.top-header a {
+    text-decoration: underline;
+}
+.top-header i {
+    font-size: 16px;
+    padding: 0px 3px;
+}
+i:hover {
+    color: orange;
+}
+.menu-wrap a {
+    font-size: 14px;
+    color: #000 !important;
+    margin: 0px 10px;
+}
+.icon-wrap i {
+    font-size: 20px;
+}
+.theme-buuton-1 {
+    background-color: rgb(252, 219, 90);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.first-slide {
+    background-color:hsl(0, 57%, 95%);
+}
+
+/* Slider css */
+.text-block h2 {
+    font-size: 94px;
+    font-weight: 800;
+}
+.text-block span {
+    font-weight: 100;
+}
+
+ .tab-content{
+    margin: 15%;
+}
+/* li{
+    float: right;
+    /* margin-right: -14%; 
+}  */
+/* .conteainer{
+    display: flex;
+} */
+h2{
+    font-size: 30px;
+    font-weight: 900; 
+}

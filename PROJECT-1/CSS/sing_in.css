@@ -1,0 +1,68 @@
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   margin: 0%;  
+    
+}
+h2{
+    display: block;
+    font-size: 66.6666;
+    font-weight: 100%;
+    margin: 5px;
+}
+.font-wrap{
+    display: contents;
+    padding: 0%;
+}
+.nav-main-content {
+    min-height: 38px;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+.container,.container{
+    margin: 2%;
+}
+.col-2,.img{
+    display: flex;
+}
+.badge{
+    margin: 4%;
+    margin-right: auto;
+}
+.theme-buuton-1 {
+    background-color: rgb(252, 219, 90);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.first-slide {
+    background-color:white;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 900; 
+}
+.agro{
+    /* background-color: hwb(60 95% 5%); */
+    background-color:white;
+}
+span{
+    font-weight: 5;
+}
+/* .bank{
+    background-color: cadetblue;
+} */
+.im{
+    display: flex;
+}
