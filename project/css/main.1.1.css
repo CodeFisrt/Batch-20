@@ -1,0 +1,193 @@
+/* font-family: 'Poppins', sans-serif; */
+
+.r-1 a,div{
+    color: rgb(146, 142, 135) !important;
+    font-size: 12px;
+    }
+.fa-facebook {font-size: 20px;}  .fa-twitter {font-size: 20px;} .fa-linkedin{font-size: 20px;}
+.content-container {
+    display: none;
+    margin-top: 10px; /* Add spacing */
+}
+/* Style the hover effect */
+#hoverButton:hover + #hoverContent {
+    display: block;
+}
+.submenu {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+.theme-buuton-1
+    {
+    background-color: rgb(244, 223, 140);
+    border-radius: 27px;
+    height: 40px;
+    font-size: 15px;
+        padding: 0px 10px;
+    border: none;
+}
+.man{
+    font-size: 20px;
+
+}
+/*  2 3 botel*/
+
+.bold-no-1{
+    font-weight: 1000;
+}
+.weeak-no-1{
+    font-weight: 50;
+    height: 58px;
+    padding: 118px;
+    padding-left: 39%;
+    padding-top: 152px;
+    font-size: 59px;
+    color: black;
+}
+.card-text {
+    padding-left: 43%;
+    padding-top: 42px;
+
+    font-size: 18px;
+}
+.discoveer{
+padding-left: 43%;
+padding-top: 15px;
+
+}
+.theme-buuton-2 {
+    background-color: rgb(244, 223, 140);
+    border-radius: 27px;
+    height: 53px;
+    font-size: 29px;
+    width: 150px;
+    border: none;
+}
+/* orange card */
+.weeak-no-2 {
+    font-weight: 50;
+    width: 60%;
+    height: 241px;
+    padding: 118px;
+    padding-top: 94px;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.theme-buuton-3 {
+    background-color: rgb(244, 223, 140);
+    border-radius: 27px;
+    height: 53px;
+    font-size: 29px;
+    width: 150px;
+    border: none;
+}
+.card-text-3 {
+    width: 750px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+/* poster */
+.poster{
+    background-color: white;
+}
+.banner_bg_5{
+    background-position-x: left; 
+    margin-right: 90px;
+}
+.tag-cloud {
+    border-radius: 100px;
+    background-color: rgb(244, 223, 140);
+    margin-top: 128px;
+    width: 300px;
+    margin-left: 86px;
+   
+}
+  .one-rs {
+        font-weight: 900;
+        font-size: 100px;
+        color: black;
+    }
+.price_t-kg{
+    padding-top: 25px;
+}
+.fifty-rs{
+    font-size: 40px;
+    color: black;
+}
+.kg-tag{
+    font-size: 30px;
+    font-weight: 100;
+}
+/* info */
+.info{
+    background-color: #66666608;
+}
+.__title{
+    margin-top: 60px;
+}
+.para{
+    width: 60%;
+}
+/*  */
+.renbo {
+    font-size: 150px;
+    font-family: 'Brusher', cursive;
+}
+/* ESTSELLER */
+.bold {
+    font-weight: 900;
+    color: black;
+}
+.thin{
+  font-weight: lighter;
+}
+.para-6{
+    width: 40%;
+}
+
+/*  */
+.shipp{
+    font-size: 100px;
+}
+.card-text {
+text-align: center;
+}
+.eritating{
+    margin-left: 45%;
+}
+
+/*  */
+.card-1:hover{
+    box-shadow:1px 1px 10px 5px grey;
+}
+.card-1{
+    border: 1px solid rgb(0, 0, 0);
+}
+.ii-1 {
+    
+    max-height: 300px;
+ } 
+
+.f-l2 {
+    background-color: rgb(247, 201, 0);
+   font-size: 20px;
+   color: black;
+}
+
+.price{
+    font-weight: 700;
+    color: black;
+}
+.ooo{
+    color: black;
+  font-size: 20px;
+
+}
