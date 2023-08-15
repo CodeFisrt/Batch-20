@@ -1,0 +1,276 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.theme-color-1 {
+    color: orange;
+}
+/* *****************top header css ***************************************/
+.top-header span,a, i {
+    color: rgb(146, 142, 135) !important;
+    font-size: 12px;
+}
+.top-header a {
+    text-decoration: underline;
+}
+.top-header i {
+    font-size: 16px;
+    padding: 0px 3px;
+}
+i:hover {
+    color: orange;
+}
+.menu-wrap a {
+    font-size: 14px;
+    color: #000 !important;
+    margin:0px 10px;
+}
+.icon-wrap i {
+    font-size: 20px;
+}
+.theme-buuton-1 {
+    background-color: rgb(252, 219, 90);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+.first-slide {
+    background-color: rgb(244, 223, 140);
+}
+
+                 /* ***************** Slider css********************************* */
+.carousel-inner{
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 10px;
+    padding-top: 50px;
+}
+.carousel-item{
+    height: 100vh;
+}
+
+.slider-content{
+    position: absolute;
+    color: #000;
+    margin-top: 73px;
+    align-items: center;
+}
+._title{
+    font-size: 50px;
+    font-weight: 500;
+   
+}
+._title span{
+font-size: 30px;
+font-weight: 50px;
+}
+.custom_btn2{
+  border-radius: 30px;
+  padding: 20px 60px;
+  background-color: #fff;
+  border: 3px solid rgb(252,219,90);
+  margin-top: 50px;
+}
+.custom_btn2:hover{
+    background-color: rgb(252,219,90);
+    border: none;
+}
+.custom_btn3{
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: rgb(252,219,90);
+    border: none;
+    margin-top: 50px;
+}
+.custom_btn3:hover{
+    background-color: #fef8db;
+    border: 3px solid rgb(252,219,90);
+}
+.custom_btn4{
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: transparent;
+    border: 3px solid rgb(252,219,90);
+    color: #fff;
+    margin-top: 50px;
+}
+.custom_btn4:hover{
+    background-color: rgb(252,219,90);
+    /* border: 3px solid rgb(252,219,90); */
+}
+
+
+ /* ****************************4rd section************************* */
+.card-title{
+    font-weight: 400;
+    margin: 0;
+}
+.price{
+    padding: 0;
+    margin: 0;
+    padding-top: 6px;
+    font-weight: bold;
+}
+.btnc{
+    height: 50px;
+    width: 70%;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+    
+}
+.btnc:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
+ /* ******************** 6th Section***************** */
+.logo-overlap {
+    position: absolute;
+    margin-top: 50%;
+    }
+/* ******************************************** */
+.text-wrap h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* ********************** 8th Section*********************** */
+.section-8 h1 {
+    font-size: 100px;
+    font-family:'Cookie', cursive;
+}
+.s1{
+ color: #635729;
+}
+.s2{
+    color: #ff6262;
+}
+.s3{
+    color: #ffbb4c
+}
+.s4{
+    color: #fcdb5a
+}
+.s5{
+ color: #5e9a4b
+}
+/* ********************** 8th Section*********************** */
+.checked{
+    color: #fac917;
+ 
+}
+.btn-1{
+    height: 45px;
+    width: 100%;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+}
+.btn-1:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
+/* ********************** 8th Section*********************** */
+.btn-2{
+    height: 50px;
+    width: 160px;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+}
+.btn-2:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
+
+/* **************************11th Fresh Exotic Fruits section************************* */
+.section-11 .img-bg{
+    background-image: url(../images/Banner/banner-img-3.jpg);
+    background-repeat: no-repeat;
+}
+.text-head b{
+    font-size:60px;
+}
+ .text-head h2{
+    font-weight: 100;
+}
+.bttn{
+    height: 50px;
+    width: 25%;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+}
+.bttn:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
+/* ***************************12th People-says section****************** */
+.review-item{
+    width: 100%; 
+    display: inline-block;
+    line-height: 1.5rem;
+    padding-top: 50px;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    color: #696248;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+}
+.review-item-text i{
+    font-size: 1.5rem;
+}
+.auther-name{
+    padding-left: 70px ;
+}
+/* ***************************13th Blog-post section****************** */
+.post-btn{
+    height: 50px;
+    width: 70%;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+}
+.post-btn:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
+/* <!------------------- Last-summary section ---------------------> */
+.sub-btn{
+    height: 50px;
+    width: 100%;
+    outline:none;
+    border: 2px solid rgb(243, 198, 51);
+    color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    background: transparent;
+}
+.sub-btn:hover{
+    background-color: orange;
+    border: 2px solid orange;
+   outline: none;
+   border-radius: 50px;
+}
