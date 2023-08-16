@@ -124,3 +124,6 @@ h2{
 .agro{
     background-color: hwb(60 95% 5%);
 }
+.im{
+    display: flex;
+}
