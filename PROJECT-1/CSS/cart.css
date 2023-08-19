@@ -126,4 +126,8 @@ h2{
 }
 .im{
     display: flex;
+    margin-top: -0.25rem !important;
+}
+.col{
+    margin: 60px;
 }
