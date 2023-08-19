@@ -65,9 +65,6 @@ main {
     height: 50vh;
 }
 
-span.font-weight {
-    font-size: 67px;
-}
 
 .bold-font {
     font-weight: 800;
@@ -91,8 +88,8 @@ span.font-weight {
     margin: 0 11px;
 }
 .cust-card-img{
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 90px;
     margin-left: 94px;
 }
 .iconic-card{
@@ -156,7 +153,7 @@ span.font-weight {
 }
 .bold-fonts {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
 }
 .special-offer {
     line-height: 1;
@@ -238,4 +235,30 @@ line-height: 2;
 width: 167px;
 top: -205px;
 left: -715px;
+}
+.new-font-fam{
+    font-family: 'Poiret One', cursive;
+   
+}
+.font-size{
+    font-size: 80px;
+}
+.cust-heading3{
+  
+    left: -144px;
+    text-align: left;
+    bottom: -4572px;
+
+}
+.cust-font-color{
+    color:#c6c820;
+}
+.cust-but3{
+    left: -600px;
+
+    bottom: -4681px;
+  
+}
+.checked{
+    color:#fac917;
 }
