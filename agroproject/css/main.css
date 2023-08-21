@@ -74,6 +74,10 @@ i:hover {
 .c5 {
   color: #5e9a4b;
 }
+.animate__animated .animate__pulse {
+    animation-duration: 5s;
+}
+
 .section-8 .img-bg {
   background: url(https://demo.artureanec.com/html/agro/img/banner_bg_5.jpg);
 }
