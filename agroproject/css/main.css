@@ -1,71 +1,82 @@
 body {
-    /* font-family: 'Metrophobic', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin: 0;
+  /* font-family: 'Metrophobic', sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 .theme-color-1 {
-    color: orange;
+  color: orange;
 }
 /*----------------------------------- top header css--------------------------------------*/
-.top-header span,a, i {
-    color: rgb(146, 142, 135) !important;
-    font-size: 12px;
+.top-header span,
+a,
+i {
+  color: rgb(146, 142, 135) !important;
+  font-size: 12px;
 }
 .top-header a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .top-header i {
-    font-size: 16px;
-    padding: 0px 3px;
+  font-size: 16px;
+  padding: 0px 3px;
 }
 i:hover {
-    color: orange;
+  color: orange;
 }
 .menu-wrap a {
-    font-size: 14px;
-    color: #000 !important;
-    margin: 0px 10px;
+  font-size: 14px;
+  color: #000 !important;
+  margin: 0px 10px;
 }
 .icon-wrap i {
-    font-size: 20px;
+  font-size: 20px;
 }
 .theme-buuton-1 {
-    background-color: rgb(252, 219, 90);
-    padding: 10px 30px;
-    border-radius: 30px;
-    border: none;
+  background-color: rgb(252, 219, 90);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
 }
 .first-slide {
-    background-color: rgb(244, 223, 140);
+  background-color: rgb(244, 223, 140);
 }
 
 /* Slider css */
 .text-block h2 {
-    font-size: 94px;
-    font-weight: 800;
+  font-size: 94px;
+  font-weight: 800;
 }
 .text-block span {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .logo-overlap {
-position: absolute;
-margin-top: 50%;
+  position: absolute;
+  margin-top: 50%;
 }
 .section-5 h1 {
-font-size: 220px;
+  font-size: 220px;
+  font-family: "Cookie", cursive;
+}
+.c1 {
+  color: #635729;
+}
+.c2 {
+  color: #ff6262;
+}
+.c3 {
+  color: #ffbb4c;
+}
+.c4 {
+  color: #fcdb5a;
+}
+.c5 {
+  color: #5e9a4b;
 }
 .section-8 .img-bg {
-background: url(https://demo.artureanec.com/html/agro/img/banner_bg_5.jpg);
+  background: url(https://demo.artureanec.com/html/agro/img/banner_bg_5.jpg);
 }
 .section-9 .img-bg {
-background: url(https://demo.artureanec.com/html/agro/img/review_bg_1.png);
+  background: url(https://demo.artureanec.com/html/agro/img/review_bg_1.png);
 }
-
-
-
-
-
-
-
