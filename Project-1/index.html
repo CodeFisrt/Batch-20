@@ -16,28 +16,29 @@
         href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="responsiv.css">
 </head>
 
 <body>
     <section class="header-section">
-        <div class="container">
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-2">
-                    <img src="../Project-1/images/site_logo.png" class="img-fluid" alt="">
+                    <img src="../Project-1/images/site_logo.png" class="img-fluid" alt="site logo">
                 </div>
                 <div class="col-10">
                     <div class="row border-bottom top-header py-2">
-                        <div class="col-md-4">
+                        <div class="col-4">
                             <span>523 Sylvan Ave, 5th Floor Mountain View, CA 940 USA</span>
                         </div>
-                        <div class="col-md-3">
-                            <a href="tel:1 (234) 56789">+1 (234) 56789,</a> <a href="tel:+1 987 654 3210"> +1 987 654
-                                3210</a>
+                        <div class="col-3">
+                            <a href="tel:1 (234) 56789">+1 (234) 56789,</a><a href="tel:+1 987 654 3210"> +1 987 654
+                            3210</a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-3">
                             <a href="mailto:support@agrocompany.com">support@agrocompany.com</a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-2">
                             <div class="social-wrap">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
@@ -45,32 +46,30 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ******************************menu section************************** -->
                     <div class="row align-items-center py-3">
-                        <div class="col-md-8">
+                        <div class="col-8">
                             <nav class="navbar navbar-expand-lg">
                                 <div class="container-fluid">
+                                    <!------  <a class="navbar-brand" href="#">Navbar</a> ------>
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
+                                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-wrap">
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                   data-bs-toggle="dropdown" aria-expanded="false">
                                                     Home
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Home 1</a></li>
-                                                    <li><a class="dropdown-item" href="#">Home 2</a></li>
-                                                    <li><a class="dropdown-item" href="#">Home 3</a></li>
-                                                    <li><a class="dropdown-item" href="#">Home Shop</a></li>
-                                                    <!-- <li>
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
                                             </li>
                                             <li class="nav-item">
@@ -78,75 +77,63 @@
                                             </li>
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                   data-bs-toggle="dropdown" aria-expanded="false">
                                                     Pages
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Services</a></li>
-                                                    <li><a class="dropdown-item" href="#">Product</a></li>
-                                                    <li><a class="dropdown-item" href="#">Product Details</a></li>
-                                                    <li><a class="dropdown-item" href="#">Gallery 1</a></li>
-                                                    <li><a class="dropdown-item" href="#">Gallery 2</a></li>
-                                                    <li><a class="dropdown-item" href="#">Typography</a></li>
-                                                    <li><a class="dropdown-item" href="#">404 Page</a></li>
-                                                    <!-- <li>
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
                                             </li>
-                                            <!-- <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li> -->
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Shops
+                                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Shop
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Shop Catalog</a></li>
-                                                    <li><a class="dropdown-item" href="#">Single Product</a></li>
-                                                    <li><a class="dropdown-item" href="#">Cart</a></li>
-                                                    <li><a class="dropdown-item" href="#">Checkout</a></li>
-                                                    <li><a class="dropdown-item" href="#">Sign In/Up</a></li>
-                                                    <!-- <li>
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link active" aria-current="page" href="#">Blog</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                                                <a class="nav-link active" aria-current="page" href="#">Contacts</a>
                                             </li>
                                         </ul>
-
+    
                                     </div>
                                 </div>
                             </nav>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-2">
                             <div class="icon-wrap">
-                                <i class="fa-regular fa-user"></i>
+                                <i class="fa-regular fa-user pe-2 ps-0 fs-5"></i>
                                 <button type="button" class="btn position-relative">
-                                    <i class="fa-solid fa-bag-shopping"></i>
-                                    <span
-                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                        99+
-                                        <span class="visually-hidden">unread messages</span>
-                                    </span>
+                                    <i class="fa-solid fa-bag-shopping fs-4"></i>
+                                    <span class="position-absolute top-0 start-99 translate-middle badge rounded-pill bg-warning fw-light text-dark">
+                                            0
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
                                 </button>
-
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <button class="theme-buuton-1">Get in touch</button>
+                        <div class="col-2">
+                            <button class="theme-buuton-1 p-3 px-4">Get in touch</button>
                         </div>
                     </div>
                 </div>
             </div>
+    
         </div>
     </section>
     <!-- **************************Slider Section*************************** -->
@@ -170,7 +157,7 @@
                             <button type="button" class="custom_btn2">DISCOVER</button></a>
                         </div>
                     </div>
-                    <img src="../Project-1/images/hero-image-1.jpg" alt="" class=" img-fluid " height="590px"
+                    <img src="../Project-1/images/hero-image-1.jpg" alt="" class=" img-fluid" height="590px"
                         width="100%">
                 </div>
                 <div class="carousel-item active" data-bs-interval="20000">
@@ -221,13 +208,13 @@
     <!-- **************************third section************************** -->
     <section class="section-3">
         <div class="row  m-2">
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="../Project-1/images/img-1.jpg" class="img-fluid py-5 " width="100%" height="150">
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="../Project-1/images/img-2.jpg" class="img-fluid py-5" alt="" width="100%" height="150">
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="../Project-1/images/img-3.jpg" class="img-fluid py-5" alt="" width="100%" height="150">
             </div>
         </div>
@@ -844,9 +831,6 @@
                             injected humour, or non-characteristic words etc.</p>
                         <div class="mt-4">
                             <button class="post-btn ">READ MORE</button>
-                            <!-- <button class="border-warning rounded p-2 px-4 bg-white fw-bolder text-center">
-                            READ MORE
-                        </button> -->
                         </div>
                     </div>
                 </div>
@@ -863,9 +847,6 @@
                             injected humour, or non-characteristic words etc.</p>
                         <div class="mt-4">
                             <button class="post-btn">READ MORE</button>
-                            <!-- <button class="border-warning rounded p-2 px-4 bg-white fw-bolder text-center">
-                            READ MORE
-                        </button> -->
                         </div>
                     </div>
                 </div>
@@ -966,9 +947,6 @@
                 <div class="col-3">
                     <div class="mt-0 ps-3">
                         <button class="sub-btn"> SUBSCRIBE</button>
-                        <!-- <button class="border-warning rounded p-3 mt-0 ps-5 pe-5 bg-dark text-white fw-bolder text-center">
-                        SUBSCRIBE
-                    </button> -->
                     </div>
                 </div>
             </div>
