@@ -41,7 +41,6 @@ i:hover {
 .first-slide {
   background-color: rgb(244, 223, 140);
 }
-
 /* Slider css */
 .text-block h2 {
   font-size: 94px;
@@ -77,7 +76,6 @@ i:hover {
 .animate__animated .animate__pulse {
     animation-duration: 5s;
 }
-
 .section-8 .img-bg {
   background: url(https://demo.artureanec.com/html/agro/img/banner_bg_5.jpg);
 }
