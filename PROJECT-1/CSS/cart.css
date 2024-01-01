@@ -25,7 +25,7 @@ h2{
 }
 .nav-main-content {
     min-height: 38px;
-    color: darkgray;
+    /* color: darkgray; */
     display: flex;
     justify-content: center;
 }
